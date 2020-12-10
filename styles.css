@@ -1,0 +1,37 @@
+header {
+  background-image: url("orion-nebula-11107_1920.jpg");
+  padding: 150px;
+}
+h1{
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h3{
+  color: purple;
+}
+
+.socialMedia{
+flex-direction: column;
+
+}
+
+.office{
+  flex-direction: column;
+ 
+}
+
+.contact{
+  flex-direction: 
+
+}
