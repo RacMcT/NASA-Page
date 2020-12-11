@@ -1,37 +1,48 @@
 header {
   background-image: url("orion-nebula-11107_1920.jpg");
-  padding: 150px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  background-repeat: round;
+  justify-content: center;
+  align-items: center;
 }
+
+main {
+  display: flex;
+  margin: 25px 0 0 0;
+  padding: 0px 80px 60px 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  background:rgb(230, 243, 255);
+  font-family: Poppins, sans-serif;
+  font-size: 16px; 
+}
+
 h1{
   text-align: center;
   color: white;
   justify-content: center;
-}
-
-section{
-  display: flex;
-  flex-direction: row;
-  background-color: lightblue;
-  align-content: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  font-family: 'Abril Fatface', serif;
+  font-size: 80px;  
+  text-shadow: 2px 2px rgb(128, 128, 128);
 }
 
 h3{
-  color: purple;
+  color:black;
+  font-size: 30px;
+  text-shadow: 1px 1px gray;
+  background-color: rgb(179, 218, 255);
+  text-align: center;
+  border-radius: 15px;
 }
 
-.socialMedia{
-flex-direction: column;
-
+p{
+  font-size: 14px;
 }
 
-.office{
-  flex-direction: column;
- 
-}
-
-.contact{
-  flex-direction: 
-
+form {
+  display: block;
+  margin-top: 0em;
 }
