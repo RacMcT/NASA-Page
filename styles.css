@@ -42,7 +42,16 @@ p{
   font-size: 14px;
 }
 
-form {
-  display: block;
+
+form{
   margin-top: 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
+
+.btn-submit{
+  margin: 3px
+}
+
