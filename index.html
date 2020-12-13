@@ -2,50 +2,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
     <title>NASAPage</title>
 </head>
 <body>
-    <header>
-      <h1>NASA</h1>
-    </header>
+  <header>
+ <!-- Slideshow container -->
+<div class="slideshow-container">
 
-    <main>
-      <article>
-        <h3>Social Media</h3>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="galaxy-2643089_1920.jpg" class: image1 style="width:100%" alt="Green galaxy">
+    <div class="text">NASA</div>
+  </div>
 
-        <p>Twitter - @nasa</p>
-        <p>Facebook - fb.com/nasa</p>
-        <p>Instagram - @nasa</p>
-        <p>Youtube - youtube.com/NASA</p>
-      </article>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="universe-4609408_1920.jpg" style="width:100%" alt="universe">
+    <div class="text">NASA</div>
+  </div>
 
-      <article>
-        <h3>OFFICE INFO</h3>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="galaxy-3608029_1920.jpg" style="width:100%" alt="galaxy">
+    <div class="text">NASA</div>
+  </div>
 
-        <p>Public Communications Office</p>
-        <p>Nasa Headquarters</p>
-        <p>300 E. Street SW Suite 5R30</p>
-        <p>Washington, DC 20546</p>
-        <p>Office: (202) 358-0001</p>
-        <p>Fax: (202) 358-4338</p>
-      </article>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="orion-nebula-11107_1920.jpg" style="width:100%" alt="orion nebula">
+    <div class="text">NASA</div>
+  </div>
 
-      <article class="contact">
-        <h3>CONTACT US</h3>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
 
-        <form>
-          <label>Name
-          </label>
-          <input id="Name" type="text" autocomplete="name">
-          <label>Message
-          </label>
-          <textarea type="text" rows="5">
-          </textarea>
-          <input id="submit" class="btn-submit" type="submit">
-        </form>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide (4)"></span>
+</div>
+<script>
+  showSlides(slideIndex);
+</script>
+</header>
 
-      </article>
+<main>
+    <article>
+      <h3>Social Media</h3>
+
+      <p>Twitter - @nasa</p>
+      <p>Facebook - fb.com/nasa</p>
+      <p>Instagram - @nasa</p>
+      <p>Youtube - youtube.com/NASA</p>
+    </article>
+
+    <article>
+      <h3>OFFICE INFO</h3>
+
+      <p>Public Communications Office</p>
+      <p>Nasa Headquarters</p>
+      <p>300 E. Street SW Suite 5R30</p>
+      <p>Washington, DC 20546</p>
+      <p>Office: (202) 358-0001</p>
+      <p>Fax: (202) 358-4338</p>
+   </article>
+
+   <article class="contact">
+      <h3>CONTACT US</h3>
+
+      <form>
+         <label>Name
+        </label>
+        <input id="Name" type="text" autocomplete="name">
+        <label>Message
+        </label>
+        <textarea type="text" rows="5">
+        </textarea>
+        <input id="submit" class="btn-submit" type="submit">
+      </form>
+
+   </article>
 
 </body>
